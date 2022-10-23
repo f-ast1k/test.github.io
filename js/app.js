@@ -10,7 +10,7 @@ Telegram.WebApp.onEvent('mainButtonClicked', function(){
 });
 
 let p = document.createElement("p");
-p.innerText = '$tg.initDataUnsafe'
+p.innerHTML = '$tg.initDataUnsafe'
 
 
 function showalert(){
