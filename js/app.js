@@ -9,10 +9,6 @@ Telegram.WebApp.onEvent('mainButtonClicked', function(){
 	//при клике на основную кнопку отправляем данные в строковом виде
 });
 
-let p = document.createElement("p");
-p.innerHTML = '${tg.initDataUnsafe}'
-
-
 function showalert(){
-	window.alert("hello world");
+	window.alert('${tg.initDataUnsafe.first_name}');
 }
