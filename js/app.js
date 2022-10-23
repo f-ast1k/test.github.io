@@ -14,5 +14,5 @@ p.innerText = '$tg.initDataUnsafe'
 
 
 function showalert(){
-	document.alert("hello world")
+	alert("hello world");
 }
