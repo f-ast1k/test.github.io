@@ -12,3 +12,9 @@ Telegram.WebApp.onEvent('mainButtonClicked', function(){
 function showalert(){
 	window.alert('$tg.initDataUnsafe.first_name');
 }
+
+
+let div = document.getElementById("container")
+let p = document.createElement("p")
+p.innerText = '${tg.initDataUnsafe.first_name}'
+div.appendChild(p)
