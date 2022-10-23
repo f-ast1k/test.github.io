@@ -10,7 +10,7 @@ Telegram.WebApp.onEvent('mainButtonClicked', function(){
 });
 
 function showalert(){
-	window.alert("test");
+	window.alert("test2");
 }
 
 
