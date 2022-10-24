@@ -25,4 +25,7 @@ function minus(){
 
 let tg = window.Telegram.WebApp;
 tg.expand();
+tg.MainButton.text = "hello world"
+tg.MainButton.color = "#143F6B";
 tg.MainButton.show();
+tg.MainButton.enable();
