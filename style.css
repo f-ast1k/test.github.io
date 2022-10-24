@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+.container{
+    max-width: 390px;
+}
+
+.section__title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    margin: 24 auto 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 146px;
+}
+
+.product{
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #D9D9D9;
+    border-width: 1px;
+    width: 344px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+.product-img{
+    display: flex;
+    align-items: flex-start;
+    background-color: #D9D9D9;
+    border-style: solid;
+    border-color: #D9D9D9;
+    border-width: 1px;
+    border-radius: 6px;
+    padding: 7px 7px 7px 7px;
+}
+
+.desc{
+    margin: 0 0 1px 18px;
+}
+
+.product-title{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.product-price{
+    color: #52CA73;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.product-save{
+    color: #FF0202;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 4px;
+}
+
+.product-btn{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 8px;
+    width: 78px;
+    height: 22.4px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16.6px;
+    height: 16.6px;
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    border-radius: 4px;
+    border-width: 1px;
+    /* display: inline-block; */
+    padding: 4.15px 4.15px 4.15px 4.15px;
+    border: none;
+    outline: none;
+}
+
+.btn:hover{
+    background-color: gray;
+}
+
+.btn:active{
+    background-color: #D9D9D9;
+}
+
+.inp{
+    width: 39.83px;
+    height: 20.74px;
+    background-color: #D9D9D9;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-left: 2.49px;
+}
+
+.minus-btn{
+    margin-left: 2.49px;
+}
