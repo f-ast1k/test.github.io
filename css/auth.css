@@ -1,5 +1,6 @@
 body {
-    width: 390px;
+    min-width: 277px;
+    max-width: 500px;
 }
 
 h2 {
