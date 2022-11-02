@@ -18,7 +18,7 @@ h2 {
     margin: 7px 7px 7px 7px;
     padding: 15px 15px 15px 15px;
     border-radius: 25px;
-    box-shadow: 0 0 4px 2px var(--border-color);
+    box-shadow: 0 0 4px 2px var(--tg-theme-bg-color);
 }
 
 .input {
