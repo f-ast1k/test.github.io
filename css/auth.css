@@ -1,6 +1,4 @@
 body {
-    background: var(--image-url) no-repeat;
-    background-size: cover; 
     width: 390px;
 }
 
