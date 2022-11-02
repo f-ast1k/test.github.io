@@ -3,7 +3,7 @@
         --text-color: white;
         --border-color: #8d876b;
         --hover-border-color: #daa520;
-        --image-url: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/dark.jpg);
+/*         --image-url: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/dark.jpg); */
     }
 }
 
@@ -12,7 +12,7 @@
         --text-color: #000000;
         --border-color: #1e90ff;
         --hover-border-color: #00bfff;
-        --image-url: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/light.jpg);
+/*         --image-url: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/light.jpg); */
     }
 }
 
