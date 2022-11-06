@@ -101,10 +101,10 @@ img {
 
 .btn-more {
     background-color: #f48061;
-    color: black;
+    color: white;
 /*     background: transparent; */
     border: none;
-    outline: 1px solid black;
+/*     outline: 1px solid black; */
     border-radius: 5px;
     padding: 5px;
     font-family: 'Roboto', sans-serif;
@@ -113,11 +113,11 @@ img {
 }
 
 .btn-more:focus {
-    outline: 1px solid black;
+    outline: none;
 }
 
 .btn-more:active {
-    outline: 1px solid #daa520;
+    outline: none;
     color: #daa520;
 }
 
