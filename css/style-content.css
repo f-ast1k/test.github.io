@@ -79,7 +79,7 @@ img {
 .product-title {
     margin-top: 10px;
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: center;
 }
@@ -100,7 +100,9 @@ img {
 }
 
 .btn-more {
-    background: transparent;
+    background-color: #f48061;
+    color: black;
+/*     background: transparent; */
     border: none;
     outline: 1px solid black;
     border-radius: 5px;
