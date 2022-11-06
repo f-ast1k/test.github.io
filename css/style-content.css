@@ -104,7 +104,7 @@ img {
     color: white;
 /*     background: transparent; */
     border: none;
-/*     outline: 1px solid black; */
+    outline: none;
     border-radius: 5px;
     padding: 5px;
     font-family: 'Roboto', sans-serif;
@@ -118,7 +118,7 @@ img {
 
 .btn-more:active {
     outline: none;
-    color: #daa520;
+    color: white;
 }
 
 @media (max-width: 768px) {
