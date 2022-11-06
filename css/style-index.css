@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/background.jpg);
+    background-size: no-repeat;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+@media (max-width: 390px) and (min-width: 317px) {
+    .group {
+        max-width: 100%;
+    }
+    #btn-reg {
+        margin-left: 20px;
+    }
+}
+@media (min-width: 391px) {
+    .group {
+        width: 362px;
+    }
+    #btn-reg {
+        margin-left: 20px;
+    }
+}
+
+.group {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    padding: 15px 15px;
+    border-radius: 5px;
+    outline: 2px solid #8d876b;
+    margin: 0 auto;
+}
+
+h2.text-center {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.group-input {
+    margin-top: 40px;
+}
+
+.form-control {
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: 2px solid #8d876b;
+}
+
+.form-control::placeholder {
+    color: #ffffff;
+}
+
+.form-control:focus {
+    color: #ffffff;
+    background: transparent;
+    box-shadow: 0 0 5px 3px #daa520;
+}
+
+.group-button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-1 {
+    font-size: 16px;
+    width: 117.2px;
+    color: #ffffff;
+    border: 1px solid #8d876b;
+    background: transparent;
+}
+
+.btn-1:hover {
+    color: #ffffff;
+    border: 1px solid #daa520;
+}
+
+/* .btn-1:active {
+    color: #ffffff;
+    box-shadow: 0 0 5px 3px #daa520;
+    outline: none;
+} */
+
+.btn-1:focus {
+    color: #ffffff;
+    box-shadow: 0 0 5px 3px #daa520;
+    outline: none;
+}
