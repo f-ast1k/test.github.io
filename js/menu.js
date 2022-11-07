@@ -99,6 +99,10 @@ $(".content").click((e) => {
     }
 });
 
+$(".nav-menu").scroll((e) => {
+    console.log("scrol");
+});
+
 // $(".btn-more").click((e) => {
 //     alert(document.querySelector(".btn-more").getAttribute("href"));
 //     console.log(e.getAttribute);
